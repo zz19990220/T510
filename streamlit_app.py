@@ -19,7 +19,7 @@ with col1:
         </style>
 
         <div class="profile-img">
-            <img src="https://unsplash.com/photos/man-playing-skateboard-while-making-tricks-pKSLMEwRpqI" alt="Profile Image">
+            <img src="https://pin.it/5RxXshJOK" alt="Profile Image">
         </div>
         """,
         unsafe_allow_html=True,
