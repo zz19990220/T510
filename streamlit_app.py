@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Zeng Zhang - Designer",
+    page_title="Zeng Zhang - Engineer, Educator, Entrepreneur",
     page_icon="👨🏻‍💻",
     layout="centered",  # centered or wide
     initial_sidebar_state="auto",
@@ -19,8 +19,7 @@ with col1:
     </style>
 
     <div class="profile-img">
-
-    ![](https://avatars.githubusercontent.com/u/7678108?v=4)
+        ![](https://avatars.githubusercontent.com/u/7678108?v=4)
     </div>
     """,
         unsafe_allow_html=True,
@@ -28,59 +27,32 @@ with col1:
 with col2:
     st.markdown(
         """
-    # Zeng Zhang (He/Him)
+    # Zeng Zhang
                 
     - Education:
         - Beijing Forestry University
         - University of Washington
-
-    - Work Experience:
-        - Engineer at [Company Name](#)
-        - Educator at [Institution Name](#)
-        - Entrepreneur at [Startup Name](#)
-
+    - Work/Project Experience:
+        - INFINITY Rescuer Jul. 2019 - Sep. 2019
+            - Group Project;UX Design Lead
+            - Led the design of an emergency aid application to facilitate interactions among individuals and medical staff, completing two rounds of testing and product deployment within a month.
+            - Conducted six rounds of interviews throughout the design process, resulting in an 85% positive feedback rate on the final usability testing. Enhanced the existing physical prototype model iteratively by leveraging data collected from IMU sensors.
+        - FUN Kit Smart Pillbox Aug. 2019 - Nov. 2019
+            - Product Designer & Partner
+            - Addressed the issue of memory decline and medication aversion in elderly depression patients by providing a more immersive and engaging medication experience.
+            - Collaborated with cross-functional teams, such as Prototypers and Engineers, to ensure the user-friendliness and ease of use for applications and product hardware.
+            - Facilitated users in tracking their medication intake with the help of rotary bearings and PCB boards, resulting in a 30% reduction in the average instances of target users either repeating or forgetting to take their medication.
     - Hobbies and Interests:
         - City walk
         - Gym
-
     - Interesting Projects:
-        - Health related
+        - Tele-Health Related
+        - Vulnerable Population Related
+    - Contact:
+        - Seattle, WA 
+        - +1 425 5316 702 
+        - zhangzeng1999@gmail.com
     """
-    )
-
-st.markdown(
-    """
-# Projects
-
-- [Project 1](https://www.google.com)
-- [Project 2](https://www.google.com)
-- [Project 3](https://www.google.com)
-"""
-)
-
-st.markdown(
-    """
-# Contact
-""")
-col1, col2, col3 = st.columns(3)
-
-# Card with image and text
-for col in [col1, col2, col3]:
-    col.markdown(
-        """
-        <style>
-        .profile-img img {
-            width: 100%;
-            border-radius: 10%;
-        }
-        </style>
-
-        <div class="profile-img">
-
-        ![](https://avatars.githubusercontent.com/u/7678108?v=4)
-        </div>
-        """,
-        unsafe_allow_html=True,
     )
 
 ft = """
@@ -128,3 +100,4 @@ with <img src="https://em-content.zobj.net/source/skype/289/red-heart_2764-fe0f.
 </div>
 """
 st.write(ft, unsafe_allow_html=True)
+
