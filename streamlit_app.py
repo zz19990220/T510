@@ -28,6 +28,7 @@ with col2:
     st.markdown(
         """
         <h1 style='font-size: 36px;'>Zeng Zhang</h1>
+        <p>I'm Leon (Zeng Zhang), an Interaction Designer. My expertise lies in creating cutting-edge, impactful products by integrating emerging technologies and employing human-centric methodologies. I love stargazing, exploring unknown places, understanding mundane things, and trying random foods.</p>
 
         <h2 style='font-size: 24px;'>Education:</h2>
         <ul>
@@ -97,25 +98,4 @@ a:hover, a:active {
 }
 
 .footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: transparent;
-    color: #808080; /* theme's text color hex code at 50 percent brightness */
-    text-align: left; /* you can replace 'left' with 'center' or 'right' if you want */
-}
-
-footer {
-    visibility: hidden;
-}
-</style>
-
-<div id="page-container">
-    <div class="footer">
-        <p style='font-size: 14px;'>Made with <a href="https://streamlit.io/" target="_blank">Streamlit</a><br>
-        with <img src="https://em-content.zobj.net/source/skype/289/red-heart_2764-fe0f.png" alt="heart" height="10"/><a href="https://github.com/sape94" target="_blank"> by sape94</a></p>
-    </div>
-</div>
-"""
-st.markdown(footer_template, unsafe_allow_html=True)
+    position:
