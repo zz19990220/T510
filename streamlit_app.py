@@ -19,7 +19,7 @@ with col1:
     </style>
 
     <div class="profile-img">
-        ![](https://avatars.githubusercontent.com/u/7678108?v=4)
+        ![](https://unsplash.com/photos/man-playing-skateboard-while-making-tricks-pKSLMEwRpqI) 
     </div>
     """,
         unsafe_allow_html=True,
