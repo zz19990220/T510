@@ -11,51 +11,51 @@ col1, col2 = st.columns([0.3, 0.7])
 with col1:
     st.markdown(
         """
-    <style>
-    .profile-img img {
-        width: 100%;
-        border-radius: 50%;
-    }
-    </style>
+        <style>
+        .profile-img img {
+            width: 100%;
+            border-radius: 50%;
+        }
+        </style>
 
-    <div class="profile-img">
-        ![](https://unsplash.com/photos/man-playing-skateboard-while-making-tricks-pKSLMEwRpqI) 
-    </div>
-    """,
+        <div class="profile-img">
+            <img src="https://unsplash.com/photos/man-playing-skateboard-while-making-tricks-pKSLMEwRpqI" alt="Profile Image">
+        </div>
+        """,
         unsafe_allow_html=True,
     )
 with col2:
     st.markdown(
         """
-    # Zeng Zhang
-                
-    - Education:
-        - Beijing Forestry University
-        - University of Washington
-    - Work/Project Experience:
-        - INFINITY Rescuer Jul. 2019 - Sep. 2019
-            - Group Project;UX Design Lead
-            - Led the design of an emergency aid application to facilitate interactions among individuals and medical staff, completing two rounds of testing and product deployment within a month.
-            - Conducted six rounds of interviews throughout the design process, resulting in an 85% positive feedback rate on the final usability testing. Enhanced the existing physical prototype model iteratively by leveraging data collected from IMU sensors.
-        - FUN Kit Smart Pillbox Aug. 2019 - Nov. 2019
-            - Product Designer & Partner
-            - Addressed the issue of memory decline and medication aversion in elderly depression patients by providing a more immersive and engaging medication experience.
-            - Collaborated with cross-functional teams, such as Prototypers and Engineers, to ensure the user-friendliness and ease of use for applications and product hardware.
-            - Facilitated users in tracking their medication intake with the help of rotary bearings and PCB boards, resulting in a 30% reduction in the average instances of target users either repeating or forgetting to take their medication.
-    - Hobbies and Interests:
-        - City walk
-        - Gym
-    - Interesting Projects:
-        - Tele-Health Related
-        - Vulnerable Population Related
-    - Contact:
-        - Seattle, WA 
-        - +1 425 5316 702 
-        - zhangzeng1999@gmail.com
-    """
+        # Zeng Zhang
+
+        - Education:
+            - Beijing Forestry University
+            - University of Washington
+        - Work/Project Experience:
+            - INFINITY Rescuer Jul. 2019 - Sep. 2019
+                - Group Project; UX Design Lead
+                - Led the design of an emergency aid application to facilitate interactions among individuals and medical staff, completing two rounds of testing and product deployment within a month.
+                - Conducted six rounds of interviews throughout the design process, resulting in an 85% positive feedback rate on the final usability testing. Enhanced the existing physical prototype model iteratively by leveraging data collected from IMU sensors.
+            - FUN Kit Smart Pillbox Aug. 2019 - Nov. 2019
+                - Product Designer & Partner
+                - Addressed the issue of memory decline and medication aversion in elderly depression patients by providing a more immersive and engaging medication experience.
+                - Collaborated with cross-functional teams, such as Prototypers and Engineers, to ensure the user-friendliness and ease of use for applications and product hardware.
+                - Facilitated users in tracking their medication intake with the help of rotary bearings and PCB boards, resulting in a 30% reduction in the average instances of target users either repeating or forgetting to take their medication.
+        - Hobbies and Interests:
+            - City walk
+            - Gym
+        - Interesting Projects:
+            - Tele-Health Related
+            - Vulnerable Population Related
+        - Contact:
+            - Seattle, WA 
+            - +1 425 5316 702 
+            - zhangzeng1999@gmail.com
+        """
     )
 
-ft = """
+footer_template = """
 <style>
 a:link , a:visited{
 color: #BFBFBF;  /* theme's text color hex code at 75 percent brightness*/
@@ -79,9 +79,8 @@ footer{
 }
 
 .footer {
-position: relative;
+position: absolute;
 left: 0;
-top:230px;
 bottom: 0;
 width: 100%;
 background-color: transparent;
@@ -99,5 +98,4 @@ with <img src="https://em-content.zobj.net/source/skype/289/red-heart_2764-fe0f.
 
 </div>
 """
-st.write(ft, unsafe_allow_html=True)
-
+st.markdown(footer_template, unsafe_allow_html=True)
