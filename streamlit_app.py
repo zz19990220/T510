@@ -56,8 +56,9 @@ with col2:
 
         <h2 style='font-size: 24px;'>Hobbies and Interests:</h2>
         <ul>
-            <li>City walk</li>
-            <li>Gym</li>
+            <li>City walk, Hiking</li>
+            <li>Fitness, Tennis</li>
+            <li>Scuba diving</li>
         </ul>
 
         <h2 style='font-size: 24px;'>Interesting Projects:</h2>
